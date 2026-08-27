@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#886495ed"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/myNameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAC0F3"
+        android:text="202334353 hanyejin"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your First and Last name"
+        android:inputType="textCapWords|textAutoCorrect"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- 로그인 버튼 -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+
+</LinearLayout>

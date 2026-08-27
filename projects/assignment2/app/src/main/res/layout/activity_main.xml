@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#8000FF"
+        android:title="Assignment-CH7"
+        android:titleTextColor="#FFFFFF"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="202334353 한예진"
+        android:padding="15dp"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00:00:00"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textColor="#555555"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="시작"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/control_buttons_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/control_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_record"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="기록"
+                android:textColor="#000000"
+                android:background="@drawable/button_border" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_pause"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="일시정지"
+                android:textColor="#000000"
+                android:background="@drawable/button_border" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_reset"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="중지"
+                android:textColor="#000000"
+                android:background="@drawable/button_border" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_more"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="더보기"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/button_border" />
+    </LinearLayout>
+
+</LinearLayout>

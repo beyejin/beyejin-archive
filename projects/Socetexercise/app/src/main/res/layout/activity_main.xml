@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 이름 표시 박스 -->
+    <TextView
+        android:id="@+id/myNameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAC0F3"
+        android:text="202334353 hanyejin"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 안내 문구 -->
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myNameBox"
+        android:layout_marginTop="16dp"
+        android:text="버튼을 누르면 소켓 연결 됩니다. 메시지는 로그를 확인하세요"
+        android:gravity="center" />
+
+    <!-- 버튼 -->
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="소켓 연결하기" />
+
+    <!-- 서버 주소 입력 -->
+    <EditText
+        android:id="@+id/editText01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button01"
+        android:layout_marginTop="16dp"
+        android:text="10.0.2.2"
+        android:inputType="text" />
+</RelativeLayout>

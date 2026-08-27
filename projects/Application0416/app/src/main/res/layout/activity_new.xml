@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textFixedInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="202334353 한예진"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 상단 이름 표시 바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#9C27B0"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="이름"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- URL 입력 -->
+    <EditText
+        android:id="@+id/resultURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL 입력"
+        android:inputType="textUri"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- 전화번호 입력 -->
+    <EditText
+        android:id="@+id/resultPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호 입력"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <!-- 돌아가기 버튼 -->
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        android:textColor="@android:color/black"
+        android:backgroundTint="#E0E0E0"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
