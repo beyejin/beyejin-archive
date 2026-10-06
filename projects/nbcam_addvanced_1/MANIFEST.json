@@ -1,0 +1,205 @@
+{
+  "collected_on": "2026-10-06",
+  "source_repository": "https://github.com/DongHyunKIM-Hi/nbcam_addvanced_1",
+  "source_commit": "6ccd39bb9dfca01f9dc6fac4f4d87081586d1107",
+  "source_branch": "master",
+  "snapshot_kind": "user-provided local working tree",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "original_sha256": "193fbf6c445dea576a6f238c5262320931945a2ea03bae24b161b30856919a09",
+      "archived_sha256": "193fbf6c445dea576a6f238c5262320931945a2ea03bae24b161b30856919a09",
+      "change": "unchanged"
+    },
+    {
+      "path": ".gitignore",
+      "original_sha256": "795029e58e368bb91c71cb3adb971491562622d4b1684604f278cdbfb8fec238",
+      "archived_sha256": "795029e58e368bb91c71cb3adb971491562622d4b1684604f278cdbfb8fec238",
+      "change": "unchanged"
+    },
+    {
+      "path": "build.gradle",
+      "original_sha256": "20e5ef16aab954c28cffa69e852723c524dc4abcaf83ff6cc5007377be855794",
+      "archived_sha256": "20e5ef16aab954c28cffa69e852723c524dc4abcaf83ff6cc5007377be855794",
+      "change": "unchanged"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "original_sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "archived_sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "change": "unchanged"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "original_sha256": "7e0821d895908883350587c74476b717016ab416320c44dc82a10def916c6fb5",
+      "archived_sha256": "7e0821d895908883350587c74476b717016ab416320c44dc82a10def916c6fb5",
+      "change": "unchanged"
+    },
+    {
+      "path": "gradlew",
+      "original_sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "archived_sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "change": "unchanged"
+    },
+    {
+      "path": "gradlew.bat",
+      "original_sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "archived_sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "change": "unchanged"
+    },
+    {
+      "path": "settings.gradle",
+      "original_sha256": "6cfd1135347d25cda60b277aae5c779f69e874a015e46bc7815d2bb7b59acac8",
+      "archived_sha256": "6cfd1135347d25cda60b277aae5c779f69e874a015e46bc7815d2bb7b59acac8",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/InitData.java",
+      "original_sha256": "9b205bc856b38d5de36d7284ddda6b8c8e84cc9c442dee0a6f69236fc9e152dd",
+      "archived_sha256": "9b205bc856b38d5de36d7284ddda6b8c8e84cc9c442dee0a6f69236fc9e152dd",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/NbcamAddvanced1Application.java",
+      "original_sha256": "d0d76885c3eb7cc7a3f907fd8f16285ac3b6d92d36cc926fe4bc5d726cccbb8c",
+      "archived_sha256": "d0d76885c3eb7cc7a3f907fd8f16285ac3b6d92d36cc926fe4bc5d726cccbb8c",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/config/SecurityConfig.java",
+      "original_sha256": "41405c2d3723d067cfcd02abc6607e037842f2ac3c32b67a0f7997943cc98e5f",
+      "archived_sha256": "41405c2d3723d067cfcd02abc6607e037842f2ac3c32b67a0f7997943cc98e5f",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/config/WebMvcConfig.java",
+      "original_sha256": "35eac88f781bd775fb69e4c8eb099a88f731bda553618a6013f444fc4f4bfcbf",
+      "archived_sha256": "35eac88f781bd775fb69e4c8eb099a88f731bda553618a6013f444fc4f4bfcbf",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/entity/User.java",
+      "original_sha256": "36e10aa82b4fb395778ea3df453bce1f34d6e63409f323b69a0e650b9c2c27ac",
+      "archived_sha256": "36e10aa82b4fb395778ea3df453bce1f34d6e63409f323b69a0e650b9c2c27ac",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/enums/UserRoleEnum.java",
+      "original_sha256": "5dc7eb3ee4861226e1899b4a625127cac8495557a2616f33b425724c140d8b56",
+      "archived_sha256": "5dc7eb3ee4861226e1899b4a625127cac8495557a2616f33b425724c140d8b56",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/filter/JwtFilter.java",
+      "original_sha256": "e1965560c0440ed616681f58ec32eb954e4a5268be7de6f95b78e7efb5bc7450",
+      "archived_sha256": "e1965560c0440ed616681f58ec32eb954e4a5268be7de6f95b78e7efb5bc7450",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/filter/NbacmFilter2.java",
+      "original_sha256": "2dda1fec7192f0bab86ecb295c885b7bc8afa0fdbd351c620f42a540a2496a29",
+      "archived_sha256": "2dda1fec7192f0bab86ecb295c885b7bc8afa0fdbd351c620f42a540a2496a29",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/filter/NbcamFilter.java",
+      "original_sha256": "93a12c008f1e85638d74d3b8213fd91831d6ba84815b86e954cec0f10551ef1d",
+      "archived_sha256": "93a12c008f1e85638d74d3b8213fd91831d6ba84815b86e954cec0f10551ef1d",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/interceptor/UserOwnerCheckInterceptor.java",
+      "original_sha256": "3effae4cdfdefbc6332c2662e4c5875b83946019ace3fa5361105a468c2036c9",
+      "archived_sha256": "3effae4cdfdefbc6332c2662e4c5875b83946019ace3fa5361105a468c2036c9",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/common/utils/JwtUtil.java",
+      "original_sha256": "4a8c1e29727c9c761f58b9746652f8fc4e28b1513378a261b2005ed1db6ef5f0",
+      "archived_sha256": "4a8c1e29727c9c761f58b9746652f8fc4e28b1513378a261b2005ed1db6ef5f0",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/controller/AdminController.java",
+      "original_sha256": "62694498cb3fa00eed64f89cfb89992afe68882c5c986dda0b2f81343118656c",
+      "archived_sha256": "62694498cb3fa00eed64f89cfb89992afe68882c5c986dda0b2f81343118656c",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/controller/LoginController.java",
+      "original_sha256": "bdb141ccaa8e6c714de9e465cc0fe17aa72e3155e23b275437ee917cbc3b25df",
+      "archived_sha256": "bdb141ccaa8e6c714de9e465cc0fe17aa72e3155e23b275437ee917cbc3b25df",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/controller/NormalController.java",
+      "original_sha256": "6e444365bacfccf30afade8c224ced03496eb3d3da9439dc16e5dcc29bf60ebf",
+      "archived_sha256": "6e444365bacfccf30afade8c224ced03496eb3d3da9439dc16e5dcc29bf60ebf",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/controller/UserController.java",
+      "original_sha256": "7f71e6e41c42a7ea27db5c0811468f867186c30c1ff807e97574dc5caa70403c",
+      "archived_sha256": "7f71e6e41c42a7ea27db5c0811468f867186c30c1ff807e97574dc5caa70403c",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/model/request/LoginRequestDto.java",
+      "original_sha256": "861fed4cb642e3a579976f827c2eb9d8f5321f71c02cd991db6e6d01ed7c1f1d",
+      "archived_sha256": "861fed4cb642e3a579976f827c2eb9d8f5321f71c02cd991db6e6d01ed7c1f1d",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/model/request/UpdateUserEmailDto.java",
+      "original_sha256": "51e7a01cce513bc50919bd8a7d3e9f8d0b11032805e300a61b5c6a109eb93dca",
+      "archived_sha256": "51e7a01cce513bc50919bd8a7d3e9f8d0b11032805e300a61b5c6a109eb93dca",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/model/response/LoginResponseDto.java",
+      "original_sha256": "46bf6a85c8c56b015b896a82a8dec5327a027029fcb084b8dca69d08bce5863d",
+      "archived_sha256": "46bf6a85c8c56b015b896a82a8dec5327a027029fcb084b8dca69d08bce5863d",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/repository/UserRepository.java",
+      "original_sha256": "fc6b454f6494fe3ad71eca00fb66e13d4582ca84735a7faa2bb3bcba26733a34",
+      "archived_sha256": "fc6b454f6494fe3ad71eca00fb66e13d4582ca84735a7faa2bb3bcba26733a34",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/org/example/nbcam_addvanced_1/user/service/UserService.java",
+      "original_sha256": "2539209169a42850486e5ec3f00d741eef81c481af5b97f12a3b46cbb9747735",
+      "archived_sha256": "2539209169a42850486e5ec3f00d741eef81c481af5b97f12a3b46cbb9747735",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/resources/application.yml",
+      "original_sha256": "2d327370f254bfa96ce175657f09e6b55d4d4a4b7477277c4063010b7720899f",
+      "archived_sha256": "0d43681bfd4685d38d6fd45bf860f9fce032184e694a42b32636c24bd434d680",
+      "change": "credential values replaced with environment variables"
+    },
+    {
+      "path": "src/test/java/org/example/nbcam_addvanced_1/NbcamAddvanced1ApplicationTests.java",
+      "original_sha256": "393ec69966c9d0f15afba044af3be425cd67de245cd2a16508c4fba5bfa3cfa2",
+      "archived_sha256": "393ec69966c9d0f15afba044af3be425cd67de245cd2a16508c4fba5bfa3cfa2",
+      "change": "unchanged"
+    },
+    {
+      "path": "HELP.md",
+      "original_sha256": "e4891fc64ba626651b6212d4534f1fa37efc455b7c6f997bf7531b5d586b4dc1",
+      "archived_sha256": "e4891fc64ba626651b6212d4534f1fa37efc455b7c6f997bf7531b5d586b4dc1",
+      "change": "unchanged"
+    }
+  ],
+  "excluded": [
+    ".git/",
+    ".gradle/",
+    "build/",
+    ".idea/",
+    "*.iml",
+    ".DS_Store"
+  ],
+  "additional_document": "HELP.md",
+  "redacted_file": "src/main/resources/application.yml"
+}
