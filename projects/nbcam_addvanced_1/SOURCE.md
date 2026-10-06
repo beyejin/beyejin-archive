@@ -20,7 +20,9 @@ source.path: `projects/nbcam_addvanced_1`
 
 ## 보관한 범위
 
-Git이 추적하는 원본 파일 30개와 참고용 `HELP.md` 1개를 대상으로 보관했습니다. 애플리케이션 설정을 제외한 30개 파일은 원본과 SHA-256이 같습니다.
+Git이 추적하는 원본 파일 30개와 참고용 `HELP.md` 1개를 대상으로 보관했습니다. 29개 파일은 다운로드 원본과 GitHub 보관본의 SHA-256이 같습니다.
+
+`gradlew.bat`은 원래 `.gitattributes`에 따라 다운로드의 CRLF 줄바꿈을 Git 저장 시 LF로 변환합니다. 실행 내용과 원본 저장소의 Git 파일 내용은 같습니다. 매니페스트의 공개 보관본 해시는 Git에 실제 저장된 바이트를 기준으로 계산했습니다.
 
 `src/main/resources/application.yml`은 DB 비밀번호와 JWT 서명 키를 각각 `DB_PASSWORD`, `JWT_SECRET_KEY` 환경변수 참조로 바꾸었습니다. 원래 인증 정보는 이 기록에도 옮기지 않았습니다. 파일별 원본 해시와 공개 보관본 해시는 [MANIFEST.json](MANIFEST.json)에 분리했습니다.
 
